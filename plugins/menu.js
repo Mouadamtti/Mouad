@@ -1,68 +1,93 @@
-▢ *Hello,* @⁨M
+ticker
+┃⋄ .attp
+┃⋄ .tts
+┃⋄ .tovideo
+┃⋄ .wm
+┃⋄ .qc
+┗━━━━━━━━⬣
 
- _*< Your Accounte />*_
+┏━━⊜ 𝖣𝗈𝗐𝗇𝗅𝗈𝖺𝖽
+┃⋄ .facebook
+┃⋄ .dapk2
+┃⋄ .instagram
+┃⋄ .igstalk
+┃⋄ .tiktok
+┃⋄ .tiktokstalk
+┃⋄ .tiktokimg
+┃⋄ .image
+┃⋄ .modapk
+┃⋄ .mediafire
+┃⋄ .pinterest
+┃⋄ .spotify
+┗━━━━━━━━⬣
 
- ▢ *Level :* 
- ▢ *Exp :*
- ▢ *Diamantes :*
- ▢ *Premium :* 
- ▢ *Registrado :* 
+┏━━⊜ 𝖦𝗋𝗈𝗎𝗉
+┃⋄ .add
+┃⋄ .kick
+┃⋄ .remote
+┃⋄ .link
+┗━━━━━━━━⬣
 
-_*< Bot Commnds />*_
+┏━━⊜ 𝖢𝗁𝖺𝗍𝗀𝗉𝗍
+┃⋄ .ai
+┃⋄ .chatgpt
+┃⋄ .bot
+┃⋄ .simi
+┃⋄ .alexa
+┃⋄ .bard
+┃⋄ .bardimg
+┃⋄ .dalle
+┃⋄ .toanime
+┃⋄ .ia2voz
+┗━━━━━━━━⬣
 
-▢ _/jadibot_
-▢ _/listjadibot_
-▢ _/deletesesion_
-▢ _/runtime_
-▢ _/ping_
+┏━━⊜ 𝖳𝗈𝗈𝗅𝗌
+┃⋄ .qr
+┃⋄ .hd
+┃⋄ .topdf
+┃⋄ .translate
+┗━━━━━━━━⬣
 
-_*< Premium Commnds />*_
+┏━━⊜ 𝖩𝖺𝖽𝗂𝖻𝗈𝗍
+┃⋄ .jadibot
+┃⋄ .jadibot --code
+┃⋄ .listjadibot
+┃⋄ .deletesesion
+┗━━━━━━━━⬣
 
-▢ _/apk_
-▢ _/obb_
-▢ _/imganime2_
-▢ _/imagine2_
-▢ _/fb_
-▢ _/2ytmp4_
-▢ _/2ytmp4_
+┏━━⊜ 𝖳𝗋𝖺𝗇𝗌𝗅𝖺𝗍𝖾
+┃⋄ .translate fr
+┃⋄ .translate it
+┃⋄ .translate en
+┃⋄ .translate ar
+┗━━━━━━━━⬣
 
-_*< downloade Commnds />*_
-
-▢ _/play_
-▢ _/ytmp3_
-▢ _/ytmp4_
-▢ _/yts_
-▢ _/ig_
-▢ _/img_
-▢ _/tiktok_
-
-_*< Ai Commnds />*_
-
-▢ _/imagine_
-▢ _/imganime_
-▢ _/hdr_
-▢ _/bard_
-▢ _/bard2 (beta)_
-▢ _/bardimg_
-▢ _/ai_
-▢ _/chatgpt_
-▢ _/hdr_
-▢ _/ocr_
-▢ _/tr <code>_
-▢ _/cuturl_
-
-_*< Accounte Commnds />*_
-
-▢ _/make-account_
-▢ _/serie_
-▢ _/del-account_
-▢ _/transfer_
-▢ _/info_
-▢ _/buy_
-▢ _/levelup_
-▢ _/gift_
-
-_*< Other Commnds />*_
-
-▢ _/infobot_
-▢ _/math_
+┏━━⊜ 𝖮𝗐𝗇𝖾𝗋
+┃⋄ .addprem
+┃⋄ .delprem
+┃⋄ .enable
+┃⋄ .disable
+⬣`.trim();
+    if (m.isGroup) {
+      // await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, { type: 'audioMessage', ptt: true})
+      const fkontak2 = {'key': {'participants': '0@s.whatsapp.net', 'remoteJid': 'status@broadcast', 'fromMe': false, 'id': 'Halo'}, 'message': {'contactMessage': {'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}, 'participant': '0@s.whatsapp.net'};
+      conn.sendMessage(m.chat, {image: pp, caption: str.trim(), mentions: [...str.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net')}, {quoted: m});
+    } else {
+      // await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, { type: 'audioMessage', ptt: true})
+      const fkontak2 = {'key': {'participants': '0@s.whatsapp.net', 'remoteJid': 'status@broadcast', 'fromMe': false, 'id': 'Halo'}, 'message': {'contactMessage': {'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}, 'participant': '0@s.whatsapp.net'};
+      conn.sendMessage(m.chat, {image: pp, caption: str.trim(), mentions: [...str.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net')}, {quoted: fkontak2});
+    }
+  } catch {
+    conn.reply(m.chat, '*[ ℹ️ ] Este menu tiene un error interno, por lo cual no fue posible enviarlo.*', m);
+  }
+};
+handler.command = /^(menu|menú|memu|memú|help|info|comandos|allmenu|2help|menu1.2|ayuda|commands|commandos|cmd)$/i;
+handler.exp = 0;
+handler.fail = null;
+export default handler;
+function clockString(ms) {
+  const h = isNaN(ms) ? '--' : Math.floor(ms / 3600000);
+  const m = isNaN(ms) ? '--' : Math.floor(ms / 60000) % 60;
+  const s = isNaN(ms) ? '--' : Math.floor(ms / 1000) % 60;
+  return [h, m, s].map((v) => v.toString().padStart(2, 0)).join(':');
+      }
